@@ -2,11 +2,14 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es5",
-        "sourceMap": true,
         "experimentalDecorators": true,
+        "lib": [
+            "es2016",
+            "dom"
+        ],
         "emitDecoratorMetadata": true,
         "noEmitHelpers": true,
-        "noEmitOnError": true
+        "noEmitOnError": false
     },
     "exclude": [
         "node_modules",
